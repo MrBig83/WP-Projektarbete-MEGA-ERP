@@ -9,13 +9,13 @@ header, main {
     justify-content: center;
 }
 
-.container {
+.headerContainer {
     width: 80%;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border: 1px solid #EEEEEE;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 #title {
     color: black;
@@ -53,25 +53,50 @@ button {
 }
 
 main {
-    height: 50rem;
+    
+    height: 80vh;
 }
 
-.container2 {
+.mainContainer {
     width: 80%;
     display: flex;
     justify-content: space-around;
     border: 1px solid #EEEEEE;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
-
-.h3container {
+.contentContainer{
+    width: 70%;
+    
+}
+.contentContainer .contentWrapper{
+    margin-top: 4rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 5rem;
-    width: 50rem;
+    border-bottom: 1px solid lightgrey;
+    width: 50%;
+    
+}
+.rubriker{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 50%;
 }
 
 h3 {
     font-size: 16px;
     font-weight: 500;
+    
 }
+.css-for-postname{
+    
+    height: 1rem;
+    
+    
+}
+.css-for-image{
+    height: 100px;
+    padding-bottom: 10px;
+}
+
