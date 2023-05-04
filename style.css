@@ -54,7 +54,7 @@ button {
 
 main {
     
-    height: 80vh;
+    height: 100%;
 }
 
 .mainContainer {
@@ -77,11 +77,38 @@ main {
     width: 50%;
     
 }
+.mediaContentContainer {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 4rem;
+    justify-content: space-between;
+    gap: 50px;
+    margin-right: 300px;
+    
+}
 .rubriker{
     display: flex;
     justify-content: space-between;
     margin-top: 4rem;
     width: 50%;
+}
+.fourContentContainer .fourContentWrapper{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    padding-right: 80px;
+    
+    
+}
+.fourRubriker{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    width: 100%;
 }
 
 h3 {
@@ -97,6 +124,13 @@ h3 {
 }
 .css-for-image{
     height: 100px;
+    padding-bottom: 10px;
+}
+.css-for-media{
+
+    height: 100px;
+    width: 100%;
+    object-fit:contain;
     padding-bottom: 10px;
 }
 
